@@ -9,13 +9,13 @@ export default function Hero() {
                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                     안녕하세요 탐구하고자 하는 의지로 새로운 Framework와 Server에 도전하는
                 <br className="hidden lg:inline-block"/>
-                    개발자 박승주 입니다.
+                    개발자 박승주 입니다
                 </h1>
                 <p className="mb-8 leading-relaxed">
-                    Node.js 와 Python을 이용해 백 엔드 개발에 관심이 있는 개발자
-                    ,새로운 것을 도전하는 것을 좋아하고 무엇을 하든 포기하지 않고 부딪혀보는 개발자
-                    ,개인 프로젝트를 통해 이론과 실무감각을 쌓아가는 개발자
-                    ,이익 보다는 목표에 도달하기 위해 노력하는 개발자
+                    첫번째 Node.js 와 Python을 이용해 백 엔드 개발에 관심이 있는 개발자
+                    두번째 새로운 것을 도전하는 것을 좋아하고 무엇을 하든 포기하지 않고 부딪혀보는 개발자
+                    세번째 개인 프로젝트를 통해 이론과 실무감각을 쌓아가는 개발자
+                    네번째 이익 보다는 목표에 도달하기 위해 노력하는 개발자
                 </p>
                 
                 <div className="flex justify-center">
