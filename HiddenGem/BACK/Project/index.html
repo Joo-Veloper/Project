@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>hidden gem</title>
+  <meta name="author" content="JCODE" />
+  <meta name="description" content="맛집지도 서비스" />
+  <meta name="keywords" content="JCODE, 맛집지도, 유튜버맛집, 맛집유튜버" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- <link rel="stylesheet" href="map.css" /> -->
+</head>
+
+<body>
+  <nav>
+    <div class="inner">
+      <div class="nav-container">
+        <h1 class="nav-title"><a href="./index.html">hidden gem</a></h1>
+
+        <div class="sign-container">
+          <!-- 비회원 -->
+          <div class="unsigned">
+            <a href="./signin.html">로그인/회원가입</a>
+          </div>
+
+          <!-- 회원 -->
+          <div class="signed hidden">
+            <div class="dropdown">
+              <div class="dropdown-button">
+                안녕하세요. <span class="nickname"></span>님.
+              </div>
+              <div class="dropdown-content">
+                <button id="sign-out">로그아웃</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="category">
+      <div class="inner">
+        <div class="category-container">
+          <h2 class="category-title">카테고리를 선택해보세요</h2>
+          <div class="category-list">
+            <button class="category-item" id="korea">한식</button><button class="category-item"
+              id="china">중식</button><button class="category-item" id="japan">일식</button><button class="category-item"
+              id="america">양식</button><button class="category-item" id="wheat">분식</button><button class="category-item"
+              id="meat">구이</button><button class="category-item" id="sushi">회/초밥</button><button class="category-item"
+              id="etc">기타</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 카테고리 -->
+    <div id="map" class="inner"></div>
+
+
+    <!-- 카카오지도 -->
+  </main>
+
+
+
+  <script type="text/javascript"
+    src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9765936d0d075a6e6d51a4e4b7ff2a07&libraries=services">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"
+    integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="axios-script.js"></script>
+  <script src="./header.js"></script>
+</body>
+
+</html>
